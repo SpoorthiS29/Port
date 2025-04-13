@@ -28,6 +28,12 @@ body{
 
 #skills>ul{
     display: flex;
-    width:40%;
-    justify-content: space-between;
+    width: 20%;
+    justify-content: space-around;
 }
+
+#first{
+    display: flex;
+}
+
+#f
