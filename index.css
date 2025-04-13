@@ -1,0 +1,33 @@
+body{
+    background-color:bisque
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#intro>p{
+    position: absolute;
+    top: 50px;
+}
+
+#info{
+    width: 100%;
+    padding: 10px 30px;
+}
+
+#skills{
+    width: 100%;
+}
+
+#skills>ul{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+}
