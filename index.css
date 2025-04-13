@@ -1,39 +1,50 @@
-body{
-    background-color:bisque
-}
-
-#intro{
-    display: flex;
-    flex-direction: column;
-    height: 40%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: black;
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
     color: white;
-}
-
-#intro>p{
-    position: absolute;
-    top: 50px;
-}
-
-#info{
-    width: 100%;
-    padding: 15px 25px;
-}
-
-#skills{
-    width: 100%;
-}
-
-#skills>ul{
-    display: flex;
-    width: 20%;
-    justify-content: space-evenly;
-}
-
-#first{
-    display: flex;
-}
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  /* Sections */
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .about, .projects, .contact {
+    margin-bottom: 2rem;
+  }
+  
+  /* Projects */
+  .project-card {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
